@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.example.kavy.quizactivity2"
+        applicationId "com.example.kavy.quizactivity"
         minSdkVersion 17
         targetSdkVersion 21
         versionCode 1
@@ -15,9 +15,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-        debug {
-            debuggable true
         }
     }
 }
